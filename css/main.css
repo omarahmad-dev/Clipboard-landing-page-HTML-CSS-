@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    display: block;
+}
+
+.icon-50 {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+/* Desktop First */
+/* Header Section */
+.header-container {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.main-logo {
+    background-image: url(../images/logo.svg);
+    width: 140px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 8rem auto 0;
+}
+
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+header .header-container i {
+    font-size: 7.5rem;
+    color: hsl(171, 66%, 44%);
+    margin-top: 4rem;
+}
+
+header .header-container h1 {
+    margin-bottom: 1rem;
+    margin-top: 2.75rem;
+}
+
+header .header-container p {
+    margin-bottom: 2.25rem;
+}
+
+.download-button {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.download-button a {
+    color: white;
+    padding: 15px 40px;
+    border-radius: 40px;
+}
+
+.download-button .ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 1px hsl(171deg 72.88% 35.16%);
+    transition: all 0.3s ease-in;
+}
+
+.download-button .ios:hover {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0px 2px 1px hsl(0, 0%, 0%);
+    color: hsl(171, 28%, 76%);
+}
+
+.download-button .mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 1px hsl(233deg 72.76% 57.19%);
+    transition: all 0.3s ease-in;
+}
+
+.download-button .mac:hover {
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 0px 2px 1px hsl(0, 0%, 0%);
+    color: hsl(233, 48%, 78%);
+}
+
+/* Keep Track Section */
+
+.keep-track {
+    margin: 8rem auto;
+}
+
+.keep-track .keep-track-main-text {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.keep-track .keep-track-main-text h2 {
+    margin-bottom: 1rem;
+}
+
+.keep-track .keep-track-main-text p {
+    margin-bottom: 5rem;
+}
+
+.keep-track .keep-track-bulk {
+    width: 85%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3rem;
+}
+
+.keep-track .keep-track-bulk .keep-track-bulk-img img {
+    position: relative;
+    left: -45px;
+}
+
+.keep-track .keep-track-bulk .keep-track-bulk-text-holder .keep-track-bulk-text {
+    padding: 1.5rem 0.5rem;
+}
+
+.keep-track .keep-track-bulk .keep-track-bulk-text-holder .keep-track-bulk-text h3 {
+    margin-bottom: 1rem;
+}
+
+.keep-track .keep-track-bulk .keep-track-bulk-text-holder .keep-track-bulk-text p {
+    line-height: 30px;
+}
+
+/* Access */
+
+.access {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.access .access-text h2 {
+    margin-bottom: 1rem;
+}
+
+.access .access-text p {
+    margin-bottom: 5rem;
+    line-height: 30px;
+}
+
+/* SuperCharge */
+
+.blacklist {
+    background-image: url(../images/icon-blacklist.svg);
+
+}
+
+.snippet {
+    background-image: url(../images/icon-text.svg);
+}
+
+.preview {
+    background-image: url(../images/icon-preview.svg);
+}
+
+.supercharge {
+    text-align: center;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.supercharge .supercharge-main-text {
+    margin-bottom: 4rem;
+}
+
+.supercharge .supercharge-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.supercharge .supercharge-content .supercharge-text-card-holder {
+    width: 33.3333%;
+}
+
+.supercharge .supercharge-main-text h2 {
+    margin-bottom: 1rem;
+}
+
+.supercharge .supercharge-main-text p {
+    margin-bottom: 3rem;
+}
+
+.supercharge .supercharge-content .supercharge-text-card div {
+    margin-bottom: 2rem;
+}
+
+.supercharge .supercharge-content .supercharge-text-card h3 {
+    margin-bottom: 1rem;
+}
+
+.supercharge .supercharge-content .supercharge-text-card p {
+    line-height: 40px;
+}
+
+.supercharge .supercharge-content .supercharge-text-card {
+    padding: 30px;
+}
+
+/* Logos */
+
+.logos {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem auto;
+}
+
+/* Clipboard */
+
+.clipboard {
+    width: 60%;
+    margin: 0 auto 10rem;
+    text-align: center;
+}
+
+.clipboard h2 {
+    margin-bottom: 1rem;
+}
+
+.clipboard p {
+    margin-bottom: 2.25rem;
+}
+
+/* Footer */
+
+.footer-logo {
+    background-image: url(../images/logo.svg);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem 2rem 3rem;
+}
+
+.footer-row {
+    padding: 1px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: hsl(200, 15%, 92%);
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.fb {
+    background-image: url(../images/icon-facebook.svg);
+}
+
+.x {
+    background-image: url(../images/icon-twitter.svg);
+}
+
+.insta {
+    background-image: url(../images/icon-instagram.svg);
+}
+
+footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -130px;
+}
+
+footer .footer-links a {
+    display: block;
+    width: 33%;
+    color: hsl(218, 7%, 24%);
+    padding: 10px 15px;
+    transition: all 0.3s ease-in;
+}
+
+footer .footer-social {
+    display: flex;
+}
+
+footer .footer-links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(218, 7%, 24%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    display: inline;
+    margin: 20px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+
+    .keep-track .keep-track-bulk {
+        width: 100%;
+        gap: 0rem;
+    }
+
+    .download-button {
+        width: 80%;
+    }
+
+    .access .access-img {
+        margin: 0 auto;
+    }
+
+    .access {
+        width: 90%;
+    }
+
+    .supercharge .supercharge-content .supercharge-text-card {
+        padding: 15px;
+    }
+
+    .logos {
+        width: 90%;
+        gap: 45px;
+    }
+
+
+    footer .footer-links {
+        margin-left: 5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .download-button {
+        width: 100%;
+    }
+
+    .main-logo {
+        margin: 6rem auto 0;
+    }
+
+    .keep-track {
+        margin: 6rem auto;
+    }
+
+    .keep-track .keep-track-main-text {
+        width: 95%;
+    }
+
+    .keep-track .keep-track-bulk-img,
+    .keep-track .keep-track-bulk-text-holder {
+        width: 100%;
+    }
+
+    .keep-track .keep-track-bulk {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 1rem
+    }
+
+
+    .keep-track .keep-track-bulk .keep-track-bulk-img img {
+        left: 0px;
+        width: 80%;
+    }
+
+    .keep-track .keep-track-bulk .keep-track-bulk-text-holder .keep-track-bulk-text {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .access {
+        width: 95%;
+    }
+
+    .access .access-img img {
+        width: 90%;
+    }
+
+    .supercharge {
+        width: 90%;
+    }
+
+    .logos {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem auto;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .logos img {
+        width: 30%;
+    }
+
+    .clipboard {
+        width: 90%;
+        margin: 0px auto 6rem;
+    }
+
+    * {
+        font-size: 14px;
+    }
+
+    .main-logo {
+        width: 117px;
+        height: 117px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .header-container {
+        width: 90%;
+    }
+
+    .download-button a {
+        padding: 15px 80px;
+        font-size: 1.5rem;
+    }
+
+    .access {
+        width: 90%;
+    }
+
+    .supercharge .supercharge-content .supercharge-text-card-holder {
+        width: 100%;
+    }
+
+    .supercharge .supercharge-content {
+        gap: 20px;
+    }
+
+    .supercharge .supercharge-content .supercharge-text-card div {
+        margin-bottom: 1rem;
+    }
+
+    .logos img {
+        width: 100%;
+    }
+
+    .logos {
+        width: 35%;
+    }
+
+    .clipboard p {
+        margin-bottom: 3.25rem;
+    }
+
+    .footer-row {
+        flex-flow: column wrap;
+    }
+
+    .footer-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .footer-links {
+        flex-flow: column wrap;
+        text-align: center;
+    }
+
+    footer .footer-links a {
+        width: 100%;
+        padding: 20px 18px;
+        font-size: 20px;
+    }
+
+    footer .footer-social {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .download-button a {
+        padding: 15px 75px;
+    }
+
+    .attribution a {
+        margin: 3px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+.download-button a {
+        padding: 15px 45px;
+    }
+
+}
